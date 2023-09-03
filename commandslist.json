@@ -1,0 +1,137 @@
+{
+  "costartcolony": {
+    "description": "Start your Colony! Get your plot of land and your bank account!",
+    "page": 0,
+    "related": ["starter", "basics"]
+  },
+  "coinvite": {
+    "description": "Get the link to invite ColonyMarsBot to any server",
+    "page": 0,
+    "related": ["about"]
+  },
+  "coserver": {
+    "description": "Get the link to the official bot server",
+    "page": 0,
+    "related": ["about"]
+  },
+  "cobase": {
+    "description": "Get a visual representation of your Mars Colony",
+    "page": 0,
+    "related": ["basics", "colony"]
+  },
+  "coshop": {
+    "description": "See all the available buildings in the shop",
+    "page": 0,
+    "related": ["shopping"]
+  },
+  "cobuild": {
+    "description": "Build something from the shop",
+    "page": 0,
+    "related": ["creation"]
+  },
+  "coremove": {
+    "description": "Break a building down to its scraps!",
+    "page": 0,
+    "related": ["removal"]
+  },
+  "cobank": {
+    "description": "See what you have in your bank account",
+    "page": 0,
+    "related": ["basics", "colony", "money"]
+  },
+  "codaily": {
+    "description": "Get your daily package of sponsored funds every day!",
+    "page": 0,
+    "related": ["money"]
+  },
+  "cocommands": {
+    "description": "You already know, you're here lmao XD",
+    "page": 0,
+    "related": ["basics"]
+  },
+  "cocolonize": {
+    "description": "Get humans to come onto your planet, but it won't be easy, they are needy...",
+    "page": 1,
+    "related": ["colony"]
+  },
+  "coquests": {
+    "description": "Check and update your quests/quest lines, this is an important command",
+    "page": 1,
+    "related": ["basics"]
+  },
+  "comine": {
+    "description": "Mine some rocks with the Earth Mine every three hour or so",
+    "page": 1,
+    "related": ["farming"]
+  },
+  "corefine": {
+    "description": "Refine your rocks into new more useful products and ores",
+    "page": 1,
+    "related": ["creation"]
+  },
+  "coinventory": {
+    "description": "Look at the materials you have, in the storage facility",
+    "page": 1,
+    "related": ["colony", "inventory"]
+  },
+  "coerror": {
+    "description": "Some problem with the bot? Send coerror along with your error message!",
+    "page": 1,
+    "related": ["basics"]
+  },
+  "cofeedback": {
+    "description": "Please help the bot grow! Give us some feedback with this command",
+    "page": 1,
+    "related": ["basics"]
+  },
+  "cowork": {
+    "description": "Get some quick cash",
+    "page": 1,
+    "related": ["money"]
+  },
+  "coworkshop": {
+    "description": "Check out the technology you can create from materials",
+    "page": 1,
+    "related": ["creation"]
+  },
+  "cocraft": {
+    "description": "You got the workshop, put it to good use! Craft numerous different machine parts",
+    "page": 1,
+    "related": ["creation"]
+  },
+  "cotrade_terminal": {
+    "description": "See the intergalactic product market prices as well as sell your products",
+    "page": 2,
+    "related": ["money", "selling", "buying"]
+  },
+  "cospy": {
+    "description": "Perform extreme espionage upon your enemies, construct the espionage embassy and get some spies",
+    "page": 2,
+    "related": ["complex"]
+  },
+  "coresearch_station": {
+    "description": "Dwelve into the world of science and research, explore targets of scrutinous research",
+    "page": 2,
+    "related": ["complex", "creation"]
+  },
+  "coresearch": {
+    "description": "Research new technologies and concepts",
+    "page": 2,
+    "related": ["basics", "creation"]
+  },
+  "colaunchpad": {
+    "description": "Operate and send back arrived ships",
+    "page": 2,
+    "related": ["colony", "operate"]
+  },
+  "coexpeditions": {
+    "description": "Send and recieve expeditions through the expedition hut",
+    "page": 2,
+    "related": ["explore"]
+  },
+  "coradio": {
+    "description": "Access the radio observatory",
+    "page": 2,
+    "related": ["explore"]
+  }
+}

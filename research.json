@@ -1,0 +1,59 @@
+{
+  "navkey": {
+    "name": "Space Navigational Key",
+    "description": "A navigational key used to navigate space ships torwards correct destinations",
+    "key": "navkey",
+    "id": 0,
+    "researchstation": false,
+    "prereq": false,
+    "prerequisites": {
+      "building": [],
+      "research": []
+    },
+    "matreq": false,
+    "materials": {
+      "item": {},
+      "specialist": {}
+    },
+    "object": "item",
+    "type": "crafting"
+  },
+  "basicmilitary": {
+    "name": "Basic Military",
+    "description": "Research into militaristic technology, including the military focused barracks building",
+    "key": "basicmilitary",
+    "id": 1,
+    "researchstation": true,
+    "prereq": true,
+    "prerequisites": {
+      "building": [9],
+      "research": [0]
+    },
+    "matreq": true,
+    "materials": {
+      "item": {},
+      "specialist": {"soldier" :{"id": 0, "quantity": 1}}
+    },
+    "object": "building",
+    "type": "military"
+  },
+  "antennas": {
+    "name": "Antennas",
+    "description": "The science of information transportation through radiation",
+    "key": "antennas",
+    "id": 2,
+    "researchstation": true,
+    "prereq": false,
+    "prerequisites": {
+      "building": [],
+      "research": []
+    },
+    "matreq": false,
+    "materials": {
+      "item": {},
+      "specialist": {}
+    },
+    "object": "item",
+    "type": "crafting"
+  }
+}

@@ -1,0 +1,304 @@
+{
+  "basicguide": {
+    "1": {
+      "name": "Do cowork",
+      "id": 0,
+      "description": "Now that you started, lets get some money! Firstly, perform `cowork`",
+      "info": {
+        "type": "command",
+        "name": "cowork"
+      }
+    },
+    "2": {
+      "name": "Do codaily",
+      "id": 1,
+      "description": "Cash turns the world, lets get some more of that with `codaily`",
+      "info": {
+        "type": "command",
+        "name": "codaily"
+      }
+    },
+    "3": {
+      "name": "Build an Earth Mine",
+      "id": 2,
+      "description": "Let's start with production, time to build a mine, type `coshop`, and check the build id, with is 3, so type, `cobuild 3`",
+      "info": {
+        "type": "building",
+        "name": "earthmine"
+      },
+      "reward": {
+        "type": "money",
+        "quantity": 1050
+      }
+    },
+    "4": {
+      "name": "Build an Earth Refiner",
+      "id": 3,
+      "description": "Now time to refine that earth, build an earth refiner, type `coshop`, find the build id and build an earth refiner",
+      "info": {
+        "type": "building",
+        "name": "earthrefiner"
+      }
+    },
+    "5": {
+      "name": "Collect money for a Storage Facility",
+      "id": 4,
+      "description": "Now you know how to collect them currencies, collect some money for the storage facility",
+      "info": {
+        "type": "money",
+        "quantity": 1550
+      }
+    },
+    "6": {
+      "name": "Build a Storage Facility",
+      "id": 5,
+      "description": "With the financial ability to build a storage facility, take the option and build it",
+      "info": {
+        "type": "building",
+        "name": "storagefacility"
+      }
+    },
+    "7": {
+      "name": "List of commands",
+      "id": 6,
+      "description": "cocommands has a list of possible commands, you can use cocommands for all of them or cocommands with a page number for seperated pages of commands, use `cocommands`",
+      "info": {
+        "type": "command",
+        "name": "cocommands"
+      },
+      "reward": {
+        "type": "money",
+        "quantity": 1000
+      }
+    },
+    "name": "Basic Guide",
+    "id": 0,
+    "description": "The starting guide to ease yourself into your colonizing duties",
+    "type": "main"
+  },
+  "mineralguide": {
+    "1": {
+      "name": "Do comine",
+      "id": 0,
+      "description": "`comine` will allow you to use the earth mine and obtain raw mars rocks, mine some rocks",
+      "info": {
+        "type": "command",
+        "name": "comine"
+      }
+    },
+    "2": {
+      "name": "Do coinventory",
+      "id": 1,
+      "description": "Let's check up on the rocks you just mined, use `coinventory`",
+      "info": {
+        "type": "command",
+        "name": "coinventory"
+      }
+    },
+    "3": {
+      "name": "Do corefine",
+      "id": 2,
+      "description": "With some rocks in your inventory, it's time to refine them, you can choose how much you rocks you want to refine or just refine as much as possible with 'max', use `corefine [number_of_rocks OR max]`",
+      "info": {
+        "type": "command",
+        "name": "corefine"
+      }
+    },
+    "4": {
+      "name": "Build the Intergalactic Market",
+      "id": 3,
+      "description": "Build the Intergalactic Trade Terminal, open `coshop` to find the market",
+      "info": {
+        "type": "building",
+        "name": "intergalaticmarket"
+      }
+    },
+    "5": {
+      "name": "Sell some ores",
+      "id": 4,
+      "description": "Now with the intergalctic market, use `cotrade_terminal` and sell some ores",
+      "info": {
+        "type": "command",
+        "name": "cotrade_terminal",
+        "return": "sell:any:any"
+      }
+    },
+    "6": {
+      "name": "Build WorkShop",
+      "id": 5,
+      "description": "To make some more complex technology, you'll  need the workshop, go ahead and build it",
+      "info": {
+        "type": "building",
+        "name": "workshop"
+      },
+      "reward": {
+        "type": "money",
+        "quantity": 2500
+      }
+    },
+    "name": "Mineral Guide",
+    "id": 1,
+    "description": "With the very basics, learn to manipulate minerals",
+    "type": "main"
+  },
+  "inhabitcolony": {
+    "1": {
+      "name": "Build Oxygenerator",
+      "id": 0,
+      "description": "To start our colonizing journey, we need to provide the colony with oxygen",
+      "info": {
+        "type": "building",
+        "name": "oxygenerator"
+      }
+    },
+    "2": {
+      "name": "Build the Biodome",
+      "id": 1,
+      "description": "In order to produce food, we need to build the biodome, go ahead with that",
+      "info": {
+        "type": "building",
+        "name": "biodome"
+      }
+    },
+    "3": {
+      "name": "Build an Accomodation Pod",
+      "id": 2,
+      "description": "The Mars living quarters, for housing, build the accomodation pod",
+      "info": {
+        "type": "building",
+        "name": "accomodationpod"
+      }
+    },
+    "4": {
+      "name": "Build a Launch Pad",
+      "id": 3,
+      "description": "Finally, with preperations ready, build the launch pad to allow the ships to land",
+      "info": {
+        "type": "building",
+        "name": "launchpad"
+      },
+      "reward": {
+        "type": "money",
+        "quantity": 250
+      }
+    },
+    "5": {
+      "name": "Research the Navigational Space Key",
+      "id": 4,
+      "description": "The pinnacle of nagivation technology, research the navigational space key, use `coresearch_station` and then, `coresearch 0` to research it",
+      "info": {
+        "type": "research",
+        "name": "navkey"
+      }
+    },
+    "6": {
+      "name": "Craft a Navigational Space Key",
+      "id": 5,
+      "description": "With the knowledge to do so, craft the Navigational Space Key, find the ingredients in `coworkshop` and craft it with `cocraft [craft_id]`",
+      "info": {
+        "type": "craft",
+        "name": "navkey",
+        "quantity": 1
+      },
+      "reward": {
+        "type": "money",
+        "quantity": 100
+      }
+    },
+    "7": {
+      "name": "Do cocolonize",
+      "id": 6,
+      "description": "Now everything is ready, bring a colonier ship into your colony with `cocolonize`",
+      "info": {
+        "type": "building",
+        "id_override": true,
+        "name": "^"
+      },
+      "reward": {
+        "type": "money",
+        "quantity": 500
+      }
+    },
+    "8": {
+      "name": "Send ship back",
+      "id": 7,
+      "description": "The ship arrived, the people settled, do `colaunchpad` and then use `send_back` to send the colonier ship back to prepare for more in the future",
+      "info": {
+        "type": "building",
+        "name": "launchpad"
+      }
+    },
+    "name": "Inhabit the Colony",
+    "id": 2,
+    "description": "With the game and mineral basics, it's time to get some people into your colony, let's do just that",
+    "type": "main"
+  },
+  "researchfacility": {
+    "1": {
+      "name": "Collect money for a Research Facility",
+      "id": 0,
+      "description": "In order to build a research facility, let's get enough funds to do so",
+      "info": {
+        "type": "money",
+        "quantity": 2750
+      }
+    },
+    "2": {
+      "name": "Build the Research Facility",
+      "id": 1,
+      "description": "Now build the Research Facility",
+      "info": {
+        "type": "building",
+        "name": "researchfacility"
+      }
+    },
+    "name": "The Research Facility",
+    "id": 3,
+    "description": "In order to make new things, we need to research them, in order to research them, we need the research facility",
+    "type": "side"
+  },
+  "talkwithstrangers": {
+    "1": {
+      "name": "Mine for materials..?",
+      "id": 0,
+      "description": "We will totally need raw materials for the future, keep mining until you get enough",
+      "info": {
+        "type": "other_items",
+        "name": "radio_relic",
+        "quantity": 1
+      }
+    },
+    "2": {
+      "name": "Craft an Antenna",
+      "id": 1,
+      "description": "Craft an antenna in the workshop, maybe we can use it in parallel with the relic we found...",
+      "info": {
+        "type": "craft",
+        "name": "antenna",
+        "quantity": 1
+      }
+    },
+    "3": {
+      "name": "Communication Tower",
+      "id": 2,
+      "description": "Construct the radio observatory",
+      "info": {
+        "type": "building",
+        "name": "radioobservatory"
+      }
+    },
+    "4": {
+      "name": "Radio Relic",
+      "id": 3,
+      "description": "Use the relic on the radio observatory",
+      "info": {
+        "type": "command",
+        "name": "coradio"
+      }
+    },
+    "name": "Talk With Strangers",
+    "id": 4,
+    "description": "Let's find some strangers.. and then talk to them",
+    "type": "main"
+  }
+}

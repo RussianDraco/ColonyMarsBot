@@ -1,0 +1,26 @@
+{
+  "soldier": {
+    "id": 0,
+    "name": "Soldier"
+  },
+  "spy": {
+    "id": 1,
+    "name": "Spy"
+  },
+  "scientist": {
+    "id": 2,
+    "name": "Scientist"
+  },
+  "engineer": {
+    "id": 3,
+    "name": "Engineer"
+  },
+  "artisan": {
+    "id": 4,
+    "name": "Artisan"
+  },
+  "miner": {
+    "id": 5,
+    "name": "Miner"
+  }
+}

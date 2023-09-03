@@ -1,0 +1,27 @@
+{
+  "rock": {
+    "id": 0,
+    "price": 20,
+    "name": "Rock"
+  },
+  "iron": {
+    "id": 1,
+    "price": 30,
+    "name": "Iron"
+  },
+  "copper": {
+    "id": 2,
+    "price": 50,
+    "name": "Copper"
+  },
+  "gold": {
+    "id": 3,
+    "price": 80,
+    "name": "Gold"
+  },
+  "diamond": {
+    "id": 4,
+    "price": 100,
+    "name": "Diamond"
+  }
+}

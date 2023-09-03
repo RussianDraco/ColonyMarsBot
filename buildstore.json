@@ -1,0 +1,125 @@
+{
+  "earthrefiner": {
+    "name": "Earth Refiner",
+    "id": 0,
+    "price": 1500,
+    "description": "Will refine mars earth into materials to sell",
+    "l_id": "b",
+    "research": [false]
+  },
+  "intergalaticmarket": {
+    "name": "Intergalatic Market",
+    "id": 1,
+    "price": 650,
+    "description": "Helps with selling materials to Earth and other places",
+    "l_id": "c",
+    "research": [false]
+  },
+  "oxygenerator": {
+    "name": "Oxygenerator",
+    "id": 2,
+    "price": 1250,
+    "description": "Provides the colony with fresh oxygen, can provide a human enviroment",
+    "l_id": "d",
+    "research": [false]
+  },
+  "earthmine": {
+    "name": "Earth Mine",
+    "id": 3,
+    "price": 1500,
+    "description": "This will mine mars earth",
+    "l_id": "e",
+    "research": [false]
+  },
+  "biodome": {
+    "name": "Biodome",
+    "id": 4,
+    "price": 1300,
+    "description": "Will provide food for coloniers",
+    "l_id": "f",
+    "research": [false]
+  },
+  "accomodationpod": {
+    "name": "Accomodation Pod",
+    "id": 5,
+    "price": 1350,
+    "description": "This will be where your coloniers will live",
+    "l_id": "g",
+    "research": [false]
+  },
+  "launchpad": {
+    "name": "Launch Pad",
+    "id": 6,
+    "price": 1250,
+    "description": "Provides a location for colonier's ships to land",
+    "l_id": "h",
+    "research": [false]
+  },
+  "watermine": {
+    "name": "Water Mine",
+    "id": 7,
+    "price": 1400,
+    "description": "Sucks Mars ice up from the ground and breaks it into H2O",
+    "l_id": "i",
+    "research": [false]
+  },
+  "storagefacility": {
+    "name": "Storage Facility",
+    "id": 8,
+    "price": 1550,
+    "description": "It will store your valuable and not valuable materials",
+    "l_id": "j",
+    "research": [false]
+  },
+  "workshop": {
+    "name": "WorkShop",
+    "id": 9,
+    "price": 2850,
+    "description": "Crafts more advance technology and equipment from base materials",
+    "l_id": "k",
+    "research": [false]
+  },
+  "espionageembassy": {
+    "name": "Espionage Embassy",
+    "id": 10,
+    "price": 3750,
+    "description": "The ultimate spying building, activate your spies by sending them on missions for robbing and counter spy protection",
+    "l_id": "l",
+    "research": [false]
+  },
+  "barracks": {
+    "name": "Barracks",
+    "id": 11,
+    "price": 3750,
+    "description": "The building of might, ready to send your troops to war, defend, attack and war with the barrack",
+    "l_id": "m",
+    "research": [true, 1]
+  },
+  "researchfacility": {
+    "name": "Research Facility",
+    "id": 12,
+    "price": 2750,
+    "description": "Science galore! This is the place to research new techonology and concepts",
+    "l_id": "n",
+    "research": [false]
+  },
+  "expeditionhut": {
+    "name": "Expedition Hut",
+    "id": 13,
+    "price": 3000,
+    "description": "The center and base for starting and leading expeditions through the rocky lands of Mars",
+    "l_id": "o",
+    "research": [false]
+  },
+  "radioobservatory": {
+    "name": "Radio Observatory",
+    "id": 14,
+    "price": 500,
+    "description": "Building for information transfer/gathering",
+    "l_id": "p",
+    "research": [true, 2],
+    "materials": {
+      "antenna": {"name": "Antenna", "id": 4, "quantity": 3, "type": "craft"}
+    }
+  }
+}

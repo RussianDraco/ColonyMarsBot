@@ -1,0 +1,63 @@
+{
+  "circuitboard": {
+    "name": "Circuit Board",
+    "id": 0,
+    "price": 330,
+    "description": "The finest electronics for all technology",
+    "research": [false],
+    "materials": {
+      "rock" :{"id": 0, "quantity": 2, "type": "ore"},
+      "iron" :{"id": 1, "quantity": 3, "type": "ore"},
+      "copper" :{"id": 2, "quantity": 2, "type": "ore"},
+      "gold" :{"id": 3, "quantity": 1, "type": "ore"}
+    }
+  },
+  "electromagnets": {
+    "name": "Electromagnets",
+    "id": 1,
+    "price": 230,
+    "description": "An electricity controlled magnet consisting of a copper coil and iron base",
+    "research": [false],
+    "materials": {
+      "iron" :{"id": 1, "quantity": 2, "type": "ore"},
+      "copper" :{"id": 2, "quantity": 3, "type": "ore"}
+    }
+  },
+  "diamondtooltip": {
+    "name": "Diamond ToolTip",
+    "id": 2,
+    "price": 380,
+    "description": "Strongest carbon tooltip",
+    "research": [false],
+    "materials": {
+      "rock" :{"id": 0, "quantity": 1, "type": "ore"},
+      "iron" :{"id": 1, "quantity": 1, "type": "ore"},
+      "diamond" :{"id": 4, "quantity": 3, "type": "ore"}
+    }
+  },
+  "navkey": {
+    "name": "Space Navigational Key",
+    "id": 3,
+    "price": 590,
+    "description": "The perfect tool for landing rocket ships",
+    "research": [true, 0],
+    "materials": {
+      "rock" :{"id": 0, "quantity": 1, "type": "ore"},
+      "gold" :{"id": 3, "quantity": 1, "type": "ore"},
+      "electromagnets" :{"id": 1, "quantity": 2, "type": "craft"}
+    }
+  },
+  "antenna": {
+    "name": "Antenna",
+    "id": 4,
+    "price": 480,
+    "description": "The tool for radiation information transfer",
+    "research": [true, 2],
+    "materials": {
+      "rock" :{"id": 0, "quantity": 1, "type": "ore"},
+      "copper" :{"id": 2, "quantity": 1, "type": "ore"},
+      "gold" :{"id": 3, "quantity": 2, "type": "ore"},
+      "electromagnets" :{"id": 1, "quantity": 1, "type": "craft"}
+    }
+  }
+}
